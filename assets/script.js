@@ -79,7 +79,12 @@ function startGame(){
     for(let i = 1; i < snake.length; i++){
         if(snake[0].x == snake[i].x && snake[0].y == snake[i].y){
             clearInterval(game);
-            alert('Game Over');
+            alert(`Game Over!\nPontuação: ${foodEaten}`);
+            if (confirm('Gostaria de jogar novamente?') == true){
+                window.location.reload()
+            }else{
+                alert('Até mais!');
+            }
         }
     }
 }

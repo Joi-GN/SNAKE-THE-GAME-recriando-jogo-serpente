@@ -2,6 +2,8 @@
     color: greenyellow;
     font-family: 'courier new';
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -9,8 +11,9 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
     width: auto;
+    margin: auto;
 
     background-color: black;
     color: white;
@@ -21,6 +24,7 @@ header{
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 header h1{
@@ -32,27 +36,13 @@ header p{
     font-size: 20px;
 }
 
-#menu{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-}
-
-#menu i{
-    font-size: 150px;
-    color: black;
-}
-
 footer{
-    position: absolute;
-    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    font-size: 17px;
+    font-size: 16px;
+    margin-top: 15px;
 }
 
 footer p{

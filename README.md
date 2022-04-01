@@ -7,3 +7,5 @@ Snake The Game foi desenvolvido utilizando somente HTML, CSS e JavaScript e pode
 ![](gif1.gif)
 
 O objetivo do jogo é coletar as comidas que aparecem na tela, controlando a movimentação da cobra com as setas do teclado e não deixar a cobra colidir com seu próprio corpo.
+
+# Acesse o jogo clicando [aqui](https://joi-gn.github.io/SNAKE-THE-GAME-recriando-jogo-serpente/)
